@@ -1,0 +1,30 @@
+{
+  "name": "adoption_system",
+  "version": "1.0.0",
+  "description": "Adoption system to c/s",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabiman123/adoption_system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-myconnection": "^1.0.4",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "bugs": {
+    "url": "https://github.com/Gabiman123/adoption_system/issues"
+  },
+  "homepage": "https://github.com/Gabiman123/adoption_system#readme"
+}
